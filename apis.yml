@@ -1,8 +1,27 @@
 aid: minu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minu.png
 name: Minu
-description: 'Minu is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Minu is Mexico''s leading employee benefits and financial wellness platform,
+  serving more than 2,000 companies and over 1 million workers. Its flagship product is
+  Salary On-Demand (earned wage access), which lets employees withdraw wages they have
+  already earned before payday, alongside a high-yield savings account, low-interest
+  payroll loans, food and gas vouchers (vales de despensa y gasolina), a rewards card,
+  a corporate expense card, telemedicine, insurance and assistance coverage, a discount
+  club, and a financial-education program. Employers adopt Minu to reduce talent turnover
+  and improve workforce financial wellness. Minu is a QED Investors portfolio company.
+  As of this enrichment pass, Minu publishes no public API, developer portal, or SDK
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/minu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Payments
+- Earned Wage Access
+- Employee Benefits
+- Financial Wellness
+- Fintech
+- Payroll
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: http://minu.mx
+- type: Blog
+  url: https://minu.mx/blog
+- type: Pricing
+  url: https://minu.mx/precios-planes-beneficios
+- type: TermsOfService
+  url: https://minu.mx/tycos
+- type: PrivacyPolicy
+  url: https://minu.mx/privacy-policy
+- type: Support
+  url: https://minu.mx/contacto
+- type: Login
+  url: https://saas.minu.mx
+- type: DomainSecurity
+  url: security/minu-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
